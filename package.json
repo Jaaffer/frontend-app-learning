@@ -1,10 +1,10 @@
 {
-  "name": "@edx/frontend-app-learning",
-  "version": "1.0.0-semantically-released",
+  "name": "@crystaldelta/xened-frontend-app-learning",
+  "version": "1.0.0",
   "description": "Frontend learning application.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openedx/frontend-app-learning.git"
+    "url": "git+https://github.com/crystaldelta/xened-frontend-app-learning.git"
   },
   "browserslist": [
     "extends @edx/browserslist-config"
@@ -22,12 +22,12 @@
   },
   "author": "edX",
   "license": "AGPL-3.0",
-  "homepage": "https://github.com/openedx/frontend-app-learning#readme",
+  "homepage": "https://github.com/crystaldelta/xened-frontend-app-learning#readme",
   "publishConfig": {
-    "access": "public"
+    "access": "restricted"
   },
   "bugs": {
-    "url": "https://github.com/openedx/frontend-app-learning/issues"
+    "url": "https://github.com/crystaldelta/xened-frontend-app-learning/issues"
   },
   "dependencies": {
     "@edx/brand": "npm:@openedx/brand-openedx@^1.2.2",
