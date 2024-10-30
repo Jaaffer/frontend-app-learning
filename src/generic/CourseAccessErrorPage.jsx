@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { LearningHeader as Header } from '@edx/frontend-component-header';
+import { LearningHeader as Header } from '@crystaldelta/xened-frontend-component-header';
 import { useParams, Navigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { injectIntl, intlShape } from '@edx/frontend-platform/i18n';
