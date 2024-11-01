@@ -3,7 +3,7 @@ name: Node CI
 on:
   push:
     branches:
-    - xen/redwood.stg
+    - develop
     - xen/redwood.master
   pull_request:
     branches:
