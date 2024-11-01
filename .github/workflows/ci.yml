@@ -34,7 +34,7 @@ jobs:
       run: npm run lint
     
     - name: Test
-      run: npm run test
+      run: npm run test --testPathIgnorePatterns=".*/__fixtures__/.*|<rootDir>/node_modules/@edx/"
 
     - name: i18n Extract
       run: npm run i18n_extract
